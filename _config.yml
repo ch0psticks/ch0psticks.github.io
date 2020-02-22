@@ -1,0 +1,22 @@
+markdown: kramdown
+#redcarpet
+permalink: /post/:title.html
+url: http://happyhacking.info
+lsi: false
+pygments: true
+safe: true
+auto: false 
+
+paginate: 8
+paginate_path: "page:num"
+
+# presonal config
+domain: happyhacking.info
+title: 碎碎念
+description: 随手记下过往...
+email: yuliang0421#gmail.com
+
+config:
+  js_dir:
+  img_dir:
+  css_dir:

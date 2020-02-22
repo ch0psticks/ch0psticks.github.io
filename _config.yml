@@ -1,7 +1,19 @@
 markdown: kramdown
+kramdown: 
+  input: GFM
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
 #redcarpet
 permalink: /post/:title.html
 url: http://happyhacking.info
+baseurl: http://happyhacking.info
+
 lsi: false
 pygments: true
 safe: true
@@ -14,7 +26,7 @@ paginate_path: "page:num"
 domain: happyhacking.info
 title: 碎碎念
 description: 随手记下过往...
-email: yuliang0421#gmail.com
+author: ch0psticks
 
 config:
   js_dir:
